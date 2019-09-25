@@ -10,3 +10,6 @@ update_configs:
     # pull requests
     default_reviewers:
       - "shen-sat"
+    ignored_updates:
+        - match:
+            dependency_name: "rubocop"
